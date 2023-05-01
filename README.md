@@ -6,3 +6,4 @@
 3. [box_model](https://box-model35.netlify.app/)
 4. [bbq_bacon_burger](https://bbq-bacon-burger35.netlify.app/)
 5. [broadway](https://broadway35.netlify.app/)
+6. [snorlax](https://snorlax35.netlify.app/)
