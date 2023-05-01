@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: #4d00ff;
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+  padding: 100px 0;
+}
+
+#small-snorlax {
+  height: 100px;
+  width: 100px;
+}
+
+#snorlax {
+  color: #4d00ff;
+  font-size: 100px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.dot {
+  list-style-type: none;
+}
