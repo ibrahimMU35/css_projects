@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html and css table reference </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <table>
+    <thead>
+      
+      <tr class="slide-out">
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      <tr class="slide-out">
+        <td><span class="code">&lt;table&gt;</span></td>
+        <td class="name">Table</td>
+        <td class="description">The wrapper element for all HTML tables.</td>
+      </tr>
+      <tr class="slide-out" class="slide-out">
+        <td><span class="code">&lt;thead&gt;</span></td>
+        <td class="name">Table Head</td>
+        <td class="description">The set of rows defining the column headers in a table.</td>
+      </tr>
+      <tr class="slide-out" class="slide-out">
+        <td><span class="code">&lt;tbody&gt;</span></td>
+        <td class="name">Table Body</td>
+        <td class="description">The set of rows containing actual table data.</td>
+      </tr>
+      <tr class="slide-out">
+        <td><span class="code">&lt;tr&gt;</span></td>
+        <td class="name">Table Row</td>
+        <td class="description">The table row container.</td>
+      </tr>
+      <tr class="slide-out">
+        <td><span class="code">&lt;td&gt;</span></td>
+        <td class="name">Table Data</td>
+        <td class="description">The table row container.</td>
+      </tr>
+      <tr class="slide-out">
+        <td><span class="code">&lt;tfoot&gt;</span></td>
+        <td class="name">Table Foot</td>
+        <td class="description">The set of rows defining the footer in a table.</td>
+      </tr>
+
+      </tbody>
+  </table>
+  <script>
+    const rows = Array.from(document.querySelectorAll('tr'));
+
+    function slideOut(row) {
+      row.classList.add('slide-out');
+    }
+
+    function slideIn(row, index) {
+      setTimeout(function () {
+        row.classList.remove('slide-out');
+      }, (index + 5) * 200);
+    }
+
+    rows.forEach(slideOut);
+
+    rows.forEach(slideIn);
+  </script>
+</body>
+
+</html>
