@@ -11,4 +11,3 @@
 8. [PaintStore](https://paint-store35.netlify.app/)
 9. [Morocco](https://morocco35.netlify.app/)
 
-$
