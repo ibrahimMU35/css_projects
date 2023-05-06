@@ -87,7 +87,7 @@ html {
     position: relative;
     height: 43.75rem;
     padding: 0 25%;
-    background: url("/PaintStore/resources/images/banner.png") center center no-repeat;
+    background: url(/PaintStore/resources/images/banner.png) center center no-repeat;
     background-size: cover;
     text-align: center;
   }
@@ -450,7 +450,7 @@ html {
     position: relative;
     height: 30rem;
     padding: 7.8125rem 30% 0 30%;
-    background: url("/PaintStore/resources/images/footer.png") center center no-repeat;
+    background: url(/PaintStore/resources/images/footer.png) center center no-repeat;
     background-size: cover;
     text-align: center;
     font-size: 1.125rem;
