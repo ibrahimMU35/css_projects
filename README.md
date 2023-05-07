@@ -12,3 +12,4 @@
 9. [Morocco](https://morocco35.netlify.app/)
 10. [html-css-beginner-table](https://html-css-beginner-table.netlify.app/)
 11. [the-summit](https://the-summit35.netlify.app/)
+12. [hotels-in-singapore](https://hotels-in-singapore.netlify.app/)
